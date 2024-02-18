@@ -1,31 +1,67 @@
-# Basic React Starter
+# React Video Search Application
 
-You can use this starter to create any ReactJS app you would like.
-Unlike when you use `npm create vite@latest your-app-name -- --template react`,
+This project is a React-based application that allows users to search for and view videos using the YouTube API. It features a responsive design, a search functionality that displays video thumbnails and titles, a video show page with playback and commenting capabilities, and about page detailing project contributors.
 
-This repo has removed all of the unwanted starter code that is normally included when using `npm` to create an application.
+## Features
 
-## Getting started
+- Search for videos via the YouTube API
+- Display search results with video thumbnails and titles
+- Responsive design for various devices and screen sizes
+- Video playback on a dedicated show page
+- Commenting functionality on video pages
+- About page with contributor information
 
-- `clone` this application
-- change the name of this directory to a name that refers to your current project. Don't just leave it as `react-basic-starter`
-  _Hint:_ In the terminal, type `mv react-basic-starter new-name-of-your-app`
-- `cd` into the app
-- in the terminal run `git remote remove origin` in order to remove any connection to this Github folder.
+## Getting Started
 
-- run `npm install`
-- to start the project, run `npm run dev`
-- no navigate to `localhost:3000` and you will see the app
-- Now you are ready to code
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-If you would like to connect this afterwards to your personal Github then:
+### Prerequisites
 
-- go to your Github account in the browser
-- create a new repo and give it a name
-- make sure the repo is public and click `Create Repository`
-- copy the instructions under the title `…or push an existing repository from the command line`
-- paste the commands in your terminal
+Before you begin, ensure you have the following installed:
+- Node.js and npm (Node Package Manager)
+- An IDE or text editor of your choice
 
-You have now connected your project to the repo.
+### Installation
 
-**You have the ability to clone this repo over and over to create your own projects. Just remember to change the name of the folder so that you do not have duplicates**
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd your-repository-name
+   ```
+
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+4. To start the development server, run:
+   ```bash
+   npm start
+   ```
+
+5. The application will launch in your default browser at `http://localhost:3000`.
+
+## Deployment
+
+This section should include instructions for deploying the project on a live system. If you've deployed your application, include the link here.
+
+Live application: [Your Application Link](#)
+
+## Built With
+
+- [React](https://reactjs.org/) - The web framework used
+- [React Router](https://reactrouter.com/) - For navigation between views
+
+## Contributing
+
+Please read [CONTRIBUTING.md](#) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+- **Julissa Garcia** - [juligarc91](https://github.com/juligarc91)
+
+See also the list of [contributors](https://github.com/JuliGarc91/recreate-youtube/contributors) who participated in this project.
